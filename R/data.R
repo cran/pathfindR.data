@@ -42,7 +42,7 @@
 #' differential expression dataset \code{\link{myeloma_input}}.
 #' \emph{Generated on Oct 19, 2020.}
 #'
-#' @format A data frame with 18 rows and 9 columns:
+#' @format A data frame with 20 rows and 9 columns:
 #' \describe{
 #'   \item{ID}{ID of the enriched term}
 #'   \item{Term_Description}{Description of the enriched term}
@@ -105,9 +105,9 @@
 #' enrichment workflow performed on the rheumatoid arthritis
 #' differential-expression data frame \code{\link{RA_input}}. Analysis via
 #' \code{run_pathfindR} was performed using the default settings.
-#' \emph{Generated on Oct 19, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format A data frame with 95 rows and 9 columns:
+#' @format A data frame with 113 rows and 9 columns:
 #' \describe{
 #'   \item{ID}{ID of the enriched term}
 #'   \item{Term_Description}{Description of the enriched term}
@@ -133,9 +133,9 @@
 #' function \code{\link[pathfindR]{cluster_enriched_terms}} was used with the default settings
 #' (i.e. hierarchical clustering was performed and the agglomeration method
 #' was "average").
-#' \emph{Generated on Oct 19, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format A data frame with 95 rows and 11 columns:
+#' @format A data frame with 113 rows and 11 columns:
 #' \describe{
 #'   \item{ID}{ID of the enriched term}
 #'   \item{Term_Description}{Description of the enriched term}
@@ -150,7 +150,6 @@
 #'   \item{Status}{whether the enriched term is the "Representative" term in its cluster or only a "Member"}
 #' }
 #' @seealso \code{\link{RA_input}}  for the RA differentially-expressed genes data frame
-#' \code{\link{RA_clustered}} for the RA example pathfindR clustering output
 #' \code{\link{RA_exp_mat}} for the RA differentially-expressed genes expression matrix
 #' \code{\link[pathfindR]{run_pathfindR}} for details on the pathfindR enrichment analysis
 #' \code{\link{RA_output}} for the RA example pathfindR enrichment output
@@ -163,9 +162,9 @@
 #' enrichment workflow performed on the rheumatoid arthritis dataset GSE84074
 #' \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84074}. Analysis via
 #' \code{run_pathfindR} was performed using the default settings.
-#' \emph{Generated on Oct 19, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format A data frame with 35 rows and 9 columns:
+#' @format A data frame with 50 rows and 9 columns:
 #' \describe{
 #'   \item{ID}{ID of the enriched term}
 #'   \item{Term_Description}{Description of the enriched term}
@@ -191,9 +190,9 @@
 #' is a vector of gene symbols located in the given pathway. Names correspond to
 #' the KEGG ID of the pathway. Pathways that did not contain any genes were
 #' discarded.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 328 vectors of gene symbols. Each vector corresponds
+#' @format list containing 335 vectors of gene symbols. Each vector corresponds
 #'   to a pathway.
 "kegg_genes"
 
@@ -202,9 +201,9 @@
 #' A named vector containing the descriptions for each Homo sapiens KEGG pathway. Names of the
 #' vector correspond to the KEGG ID of the pathway. Pathways that did not contain
 #' any genes were discarded.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format named vector containing 328 character values, the descriptions for the given
+#' @format named vector containing 335 character values, the descriptions for the given
 #'   pathways.
 "kegg_descriptions"
 
@@ -215,9 +214,9 @@
 #' is a vector of gene symbols located in the given pathway. Names correspond to
 #' the KEGG ID of the pathway. Pathways that did not contain any genes were
 #' discarded.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 324 vectors of gene symbols. Each vector corresponds
+#' @format list containing 331 vectors of gene symbols. Each vector corresponds
 #'   to a pathway.
 "mmu_kegg_genes"
 
@@ -226,9 +225,9 @@
 #' A named vector containing the descriptions for each Mus musculus KEGG pathway. Names of the
 #' vector correspond to the KEGG ID of the pathway. Pathways that did not contain
 #' any genes were discarded.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format named vector containing 324 character values, the descriptions for the given
+#' @format named vector containing 331 character values, the descriptions for the given
 #'   pathways.
 "mmu_kegg_descriptions"
 
@@ -237,9 +236,9 @@
 #' A list containing the genes involved in each human Reactome pathway. Each
 #' element is a vector of gene symbols located in the given pathway. Names
 #' correspond to the Reactome ID of the pathway.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 2400 vectors of gene symbols. Each vector corresponds
+#' @format list containing 2504 vectors of gene symbols. Each vector corresponds
 #'   to a pathway.
 "reactome_genes"
 
@@ -247,9 +246,9 @@
 #'
 #' A named vector containing the descriptions for each human Reactome pathway. Names of the
 #' vector correspond to the Reactome ID of the pathway.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format named vector containing 2400 character values, the descriptions for the given
+#' @format named vector containing 2504 character values, the descriptions for the given
 #'   pathways.
 "reactome_descriptions"
 
@@ -257,18 +256,18 @@
 #'
 #' A list containing the genes involved in each human BioCarta pathway. Each
 #' element is a vector of gene symbols located in the given pathway.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 289 vectors of gene symbols. Each vector corresponds
+#' @format list containing 292 vectors of gene symbols. Each vector corresponds
 #'   to a gene set.
 "biocarta_genes"
 
 #' BioCarta Pathways - Descriptions
 #'
 #' A named vector containing the descriptions for each human BioCarta pathway.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format named vector containing 289 character values, the descriptions for the given
+#' @format named vector containing 292 character values, the descriptions for the given
 #'   pathways.
 "biocarta_descriptions"
 
@@ -304,18 +303,18 @@
 #'
 #' A list containing the genes involved in each GO ontology term. Each
 #' element is a vector of gene symbols located in the given gene set.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 14906 vectors of gene symbols. Each vector corresponds
+#' @format list containing 15243 vectors of gene symbols. Each vector corresponds
 #'   to a gene set.
 "go_all_genes"
 
 #' Gene Ontology - All Gene Ontology Descriptions
 #'
 #' A data frame containing descriptions of Gene Ontology terms (for all categories)
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format data frame containing 14906 rows and 3 columns. Columns are \describe{
+#' @format data frame containing 15243 rows and 3 columns. Columns are \describe{
 #' \item{GO_ID}{ID of the GO term}
 #' \item{GO_term}{Description the GO term}
 #' \item{Category}{Category of the GO term (i.e., "Component", "Function" or "Process")}
@@ -328,7 +327,7 @@
 #'
 #' A data frame consisting of pathfindR enrichment analysis results on the
 #' example TF target genes data (target gene sets of CREB and MYC).
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #' @format data frame containing 2 rows and 8 columns. Each row is a gene set (the TF target gene sets).
 "custom_result"
 
@@ -346,11 +345,11 @@
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
 #' in the BioGRID protein-protein interaction network (The designations
-#' "interactor A" and "interactor B" are arbitrary). There are 463119
+#' "interactor A" and "interactor B" are arbitrary). There are 599271
 #' interactions in the BioGRID PIN.
-#' \emph{Generated on Nov 6, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 20192 vectors. Each vector is the set of gene symbols
+#' @format list containing 18237 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "biogrid_adj_list"
 
@@ -358,10 +357,11 @@
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
 #' in the GeneMania protein-protein interaction network (The designations
-#' "interactor A" and "interactor B" are arbitrary).
-#' \emph{Generated on Oct 12, 2019.}
+#' "interactor A" and "interactor B" are arbitrary). There are 60644 interactions
+#' in the GeneMania PIN.
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 12345 vectors. Each vector is the set of gene symbols
+#' @format list containing 11584 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "genemania_adj_list"
 
@@ -369,11 +369,11 @@
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
 #' in the KEGG protein-protein interaction network (The designations
-#' "interactor A" and "interactor B" are arbitrary). There are 55519 interactions
+#' "interactor A" and "interactor B" are arbitrary). There are 56850 interactions
 #' in the KEGG PIN.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 4736 vectors. Each vector is the set of gene symbols
+#' @format list containing 4710 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "kegg_adj_list"
 
@@ -381,34 +381,34 @@
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
 #' in the IntAct protein-protein interaction network (The designations
-#' "interactor A" and "interactor B" are arbitrary). There are 262093 interactions
+#' "interactor A" and "interactor B" are arbitrary). There are 284398 interactions
 #' in the IntAct PIN.
-#' \emph{Generated on Sep 20, 2020.}
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 15079 vectors. Each vector is the set of gene symbols
+#' @format list containing 15304 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "intact_adj_list"
 
 #' STRING PIN Adjacency List
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
-#' in the STRING protein-protein interaction network (The designations
+#' in the STRING protein-protein interaction network v11.5 (The designations
 #' "interactor A" and "interactor B" are arbitrary). Only interactions with a combined
-#' score >= 800 were kept.
-#' \emph{Generated on Oct 31, 2019.}
+#' score >= 800 were kept. There are 170221 interactions in the STRING PIN.
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 11934 vectors. Each vector is the set of gene symbols
+#' @format list containing 11369 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "string_adj_list"
 
 #' Mus musculus STRING PIN Adjacency List
 #'
 #' An adjacency list of vectors containing interactors B for each interactor A
-#' in the Mus musculus STRING protein-protein interaction network (The designations
+#' in the Mus musculus STRING protein-protein interaction network v11.5 (The designations
 #' "interactor A" and "interactor B" are arbitrary). Only interactions with a combined
-#' score >= 800 were kept.
-#' \emph{Generated on Nov 1, 2019.}
+#' score >= 800 were kept. There are 136071 interactions in the mmu STRING PIN.
+#' \emph{Generated on Aug 20, 2021.}
 #'
-#' @format list containing 11217 vectors. Each vector is the set of gene symbols
+#' @format list containing 10748 vectors. Each vector is the set of gene symbols
 #' of interactors B for each interactor A.
 "mmu_string_adj_list"
